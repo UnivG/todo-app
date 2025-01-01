@@ -1,0 +1,125 @@
+/* TaskList.css */
+
+.task-table-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; 
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    min-width: 150px; 
+  }
+  
+  td {
+    min-width: 150px; 
+  }
+  
+  th:first-child, td:first-child {
+    width: 200px; 
+  }
+  
+  th:last-child, td:last-child {
+    width: 250px; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  tr.done td {
+    text-decoration: line-through;
+    color: #888; 
+  }
+  
+  .pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Specific styles for buttons */
+  button:hover:not(:disabled) {
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  button.mark-as-done {
+    background-color: #28a745; 
+  }
+  
+  button.mark-as-done:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
+  button.edit {
+    background-color: #ffc107; 
+  }
+  
+  button.edit:hover:not(:disabled) {
+    background-color: #e0a800;
+  }
+  
+  button.delete {
+    background-color: #dc3545; 
+  }
+  
+  button.delete:hover:not(:disabled) {
+    background-color: #c82333;
+  }
+  
+  /* Pagination button styles */
+  .pagination button {
+    background-color: #007bff;
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #e0e0e0;
+    color: #888;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:not(:disabled):hover {
+    background-color: #0056b3; 
+  }
+  
