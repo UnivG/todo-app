@@ -15,3 +15,6 @@ The console will show a messega like this:
 
 The end result should look like this:
 ![image](https://github.com/user-attachments/assets/d61a4edb-ce2f-4d70-b44e-f7794bd58550)
+
+And this is how the data should look in the database:
+![image](https://github.com/user-attachments/assets/4b3b4535-bd9e-44c3-960f-c5e3e6b2d8f0)
