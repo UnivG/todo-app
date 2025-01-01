@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin(origins = "http://localhost:3000") // Pozwala na komunikację z frontendem
+@CrossOrigin(origins = "http://localhost:3000") 
 public class TaskController {
 
     @Autowired
